@@ -1,6 +1,6 @@
 {
   "name": "@chatgpt.js/react",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "React helpers for chatgpt.js",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -32,5 +32,13 @@
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tolga1452/chatgpt.js-react.git"
+  },
+  "homepage": "https://github.com/Tolga1452/chatgpt.js-react#readme",
+  "bugs": {
+    "url": "https://github.com/Tolga1452/chatgpt.js-react/issues"
   }
 }

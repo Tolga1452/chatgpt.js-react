@@ -1,20 +1,36 @@
 {
-  "name": "ts-template",
-  "version": "1.0.0",
-  "description": "A template for TypeScript projects.",
+  "name": "@chatgpt.js/react",
+  "version": "1.0.0-alpha.1",
+  "description": "React helpers for chatgpt.js",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "up": "pnpm update --latest",
-    "dev": "pnpm install",
-    "prod": "pnpm install --prod",
-    "start": "tsc && node ."
+    "exports": "node scripts/exports.js",
+    "build": "pnpm exports && tsc"
   },
-  "keywords": ["typescript", "ts", "template", "project"],
+  "keywords": [
+    "chatgpt.js",
+    "ts",
+    "typescript",
+    "js",
+    "javascript",
+    "react",
+    "chatgpt",
+    "openai",
+    "app",
+    "sdk"
+  ],
   "author": "Tolgchu",
   "license": "MIT",
   "type": "module",
-  "dependencies": {
+  "devDependencies": {
     "@types/node": "^24.3.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   }
 }

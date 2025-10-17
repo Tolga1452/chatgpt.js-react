@@ -1,6 +1,6 @@
 {
   "name": "@chatgpt.js/react",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "React helpers for chatgpt.js",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
